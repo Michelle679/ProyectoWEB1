@@ -1,0 +1,40 @@
+ body {
+        overflow-x: hidden;
+    }
+    /*width: 2500px;
+        height: 790px;
+        height: 100vh
+    */
+    
+    #container_principal {
+        width: 2000px;
+        height: 650px;
+    }
+    
+    .cursor {
+        cursor:default;
+    }
+    
+    header {
+        padding: 10px;
+        width: 100%;
+    }
+    
+    footer {
+        padding: 20px;
+        background-color: #aeeffa;
+    }
+    
+    header h1 {
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
+        font-size:xx-large;
+    }
+    
+    footer h2 {
+        text-align: center;
+    }
+    
+    .fondo {
+        background-color: #bad5da;
+    }
