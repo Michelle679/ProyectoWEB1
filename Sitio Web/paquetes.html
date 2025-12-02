@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>Juguetería</title>
+    <meta charset="utf-8">
+    <link rel="icon" href="imagenes/juguet.png">        
+    <link href="css/index.css" rel="stylesheet">   .
+    <link href="css/paquete.css" rel="stylesheet">
+  
+
+  </head>  
+
+<section class="container my-5">
+  <h2 class="text-center">Elige tu paquete de juguetes</h2>
+  
+  <div class="row mt-4">
+    <div class="col-md-6">
+      <select id="paquete" class="form-select">
+        <option value="" selected disabled>Selecciona un paquete</option>
+        <option value="paquete1">Paquete Bebés</option>
+        <option value="paquete2">Paquete Niños</option>
+        <option value="paquete3">Paquete Educativo</option>
+      </select>
+    </div>
+    <div class="col-md-6 text-center">
+      <div id="paquete-img"></div>
+      <p id="paquete-desc" class="mt-3 fst-italic"></p>
+      <h4 id="paquete-precio" class="text-danger fw-bold"></h4>
+      <button id="btn-comprar" class="btn btn-success mt-3" style="display:none;">
+        Comprar ahora
+      </button>
+    </div>
+  </div>
+</section>
+
+<script src="js/paquete.js "></script>

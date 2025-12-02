@@ -1,0 +1,19 @@
+
+p{
+    font-size: 100px;
+    background-color:aqua;
+}
+
+/*estilos referentes al titulo Foto #*/
+a {
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+a:hover {
+    color: blue;
+}

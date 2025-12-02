@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>Juguetería</title>
+    <meta charset="utf-8">
+    <link rel="icon" href="imagenes/juguet.png">        
+    <link href="css/index.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/sorteo.css">
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li>
+          <a href="sorteo.html" style="background-color: #3ca5c7" title="Inscripción al sorteo">
+            Participante
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <section>
+      <h2 class="centrado" style="padding: 70px">Formulario para participar</h2>
+    </section>
+
+    <section>
+      <!-- aqui va el formulario web --->
+      <form method="post" id="form1">
+        <br><br>
+        <!-- campo nombre -->
+        <label for="nombre">Nombre:</label>
+        <input id="nombreTxt" name="nombre" type="text" placeholder="Escriba su nombre completo" required />
+        <br><br>
+
+        <label for="apellidos">Apellidos:</label>
+        <input id="apellidoTxt" name="apellidos" type="text" placeholder="Escriba sus apellidos" required />
+        <br><br>
+
+        <label for="correo">EMAIL:</label>
+        <input id="emailTxt" name="correo" type="email" placeholder="Formato de email: nombre@dominio.com" required />
+        <br><br>
+
+        <label for="telefono">Teléfono:</label>
+        <input id="numberTxt" name="telefono" type="text" placeholder="Escriba su celular" required />
+        <br><br>
+
+        <p class="centrado" id="mensajeAlert"></p>
+
+        <input type="submit" value="Enviar" class="enviar" id="btnSend">
+      </form>
+    </section>
+
+    <footer>
+        <h3> Muchas gracias por participar. ¡Le deseamos mucha suerte!</h3>
+    </footer>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="js/sorteo.js"></script>
+  </body>
+</html>
